@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Advanced Search</title>
+</head>
+<body>
+    <div class="header-advanced">
+        <div class="header-advanced-logo">
+            <a href="index.html">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
+            </a>
+        </div>
+        <div class="header-links">
+            <a class="links" href="indexthai.html">ค้นหาด้วย Google</a>
+            <a class="links"href="imagesthai.html">ค้นหารูปภาพ</a>
+        </div>
+    </div>
+    <div class="appbar">
+        <label>การค้นหาขั้นสูง</label>
+    </div>
+    <div class="separator-line"></div>
+    <div class="advanced-search-container">
+        <form action="https://www.google.com/search" method="get">
+            <label style="padding-bottom: 5px;">ค้นหาหน้าเว็บที่มี...</label>
+            <div class="whitespace"></div>
+            <div class="form-group">
+                <label>ทุกคำเหล่านี้:</label>
+                <input class="jfk-textinput" type="text" name="as_q">
+            </div>
+            <div class="form-group">
+                <label>คำหรือวลีที่ตรงตามนี้:</label>
+                <input class="jfk-textinput" type="text" name="as_epq">
+            </div>
+            <div class="form-group">
+                <label>คำใดๆ เหล่านี้: </label>
+                <input class="jfk-textinput" type="text" name="as_oq">
+            </div>
+            <div class="form-group">
+                <label>ไม่มีคําเหล่านี้:</label>
+                <input class="jfk-textinput" type="text" name="as_eq">
+            </div>
+            <div class="form-group">
+                <label></label>
+                <div class="right-align">
+                    <input class="blue-button blue-button-action advanced-search-submit" type="submit"  value="ค้นหาขั้นสูง" style="line-height: 100%;height: 30px;min-width: 120px;">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
