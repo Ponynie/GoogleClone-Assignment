@@ -6,7 +6,7 @@
 # Preview
 <img src="Google.png" />
 
-#Background
+# Background
 Recall from lecture that we can create an HTML form using a
 <form>
 tag and can
@@ -25,8 +25,6 @@ If you look through the URL, you should see that one of the GET parameters in th
 It turns out that, while the other parameters provide useful data to Google, only
 the q parameter is required to perform a search. You can test this for yourself by visiting https://www.google.com/search?q=Harvard, deleting all the other parameters. You should see the same Google results!
 Using this information, we can actually re-implement a front end for Google’s homepage. Paste the below into an HTML file called , and open it in a browser. You can alternatively download the file directly from the “Getting Started” section below.
- index.html
- index.html
 <!DOCTYPE html> <html lang="en">
 <head>
 <title>Search</title> </head>
