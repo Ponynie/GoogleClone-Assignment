@@ -7,4 +7,8 @@
 <img src="Google.png" />
 
 # Group member
-- Phichaphop Raqsaboon 6434461423
+- Patcharamon Seehra
+- Thanaporn Ponduan
+- Nutthapradh Jomsaeng
+- Phasit Udomwiriyasaree
+- Phichaphop Raqsaboon
